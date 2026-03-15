@@ -1,0 +1,14 @@
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\bin\Debug\net10.0\ConsoleStructures.exe
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\bin\Debug\net10.0\ConsoleStructures.deps.json
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\bin\Debug\net10.0\ConsoleStructures.runtimeconfig.json
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\bin\Debug\net10.0\ConsoleStructures.dll
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\bin\Debug\net10.0\ConsoleStructures.pdb
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\obj\Debug\net10.0\ConsoleStructures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\obj\Debug\net10.0\ConsoleStructures.AssemblyInfoInputs.cache
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\obj\Debug\net10.0\ConsoleStructures.AssemblyInfo.cs
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\obj\Debug\net10.0\ConsoleStructures.csproj.CoreCompileInputs.cache
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\obj\Debug\net10.0\ConsoleStructures.dll
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\obj\Debug\net10.0\refint\ConsoleStructures.dll
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\obj\Debug\net10.0\ConsoleStructures.pdb
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\obj\Debug\net10.0\ConsoleStructures.genruntimeconfig.cache
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructures\obj\Debug\net10.0\ref\ConsoleStructures.dll

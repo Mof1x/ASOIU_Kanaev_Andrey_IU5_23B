@@ -1,0 +1,14 @@
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\bin\Debug\net10.0\Seminar2.exe
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\bin\Debug\net10.0\Seminar2.deps.json
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\bin\Debug\net10.0\Seminar2.runtimeconfig.json
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\bin\Debug\net10.0\Seminar2.dll
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\bin\Debug\net10.0\Seminar2.pdb
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\obj\Debug\net10.0\Seminar2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\obj\Debug\net10.0\Seminar2.AssemblyInfoInputs.cache
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\obj\Debug\net10.0\Seminar2.AssemblyInfo.cs
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\obj\Debug\net10.0\Seminar2.csproj.CoreCompileInputs.cache
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\obj\Debug\net10.0\Seminar2.dll
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\obj\Debug\net10.0\refint\Seminar2.dll
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\obj\Debug\net10.0\Seminar2.pdb
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\obj\Debug\net10.0\Seminar2.genruntimeconfig.cache
+C:\Users\Windows\source\repos\ConsoleStructures\ConsoleStructuresClassic\obj\Debug\net10.0\ref\Seminar2.dll
