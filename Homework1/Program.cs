@@ -1,12 +1,17 @@
-﻿var s1 = "ИВАНОВ";
-var s2 = "БАННВО";
+﻿while (true)
+{
+    var s1 = Console.ReadLine();
+    if (s1 == "exit") break;
+    var s2 = Console.ReadLine();
+    if (s2 == "exit") break;
 
-var arr = DamerauLevenshteinDistance(s1, s2);
+    var arr = DamerauLevenshteinDistance(s1, s2);
+    Console.WriteLine(arr[s1.Length - 1, s2.Length - 1]);
+    //Console.WriteLine();
+    //PrintTable(arr);
+}
 
 
-Console.WriteLine(arr[s1.Length - 1, s2.Length - 1]);
-Console.WriteLine();
-PrintTable(arr);
 
 
 static int[,] LevenshteinDistance(string s1, string s2)
