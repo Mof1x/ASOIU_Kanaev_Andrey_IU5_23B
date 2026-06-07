@@ -78,7 +78,6 @@ partial class FormCategories
         StartPosition = FormStartPosition.CenterParent;
         Text = "Categories (Master)";
         ((System.ComponentModel.ISupportInitialize)dgv).EndInit();
-        ResumeLayout(false);
         PerformLayout();
     }
 
