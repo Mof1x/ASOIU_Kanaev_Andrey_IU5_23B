@@ -1,12 +1,9 @@
 using System.IO;
 using Microsoft.EntityFrameworkCore;
-using WinFormsApp1.Models;
+using WinFormsApp1.Data;
 
-namespace WinFormsApp1.Data;
+namespace WinFormsApp1;
 
-/// <summary>
-/// Контекст базы данных приложения
-/// </summary>
 public class AppDbContext : DbContext
 {
     public DbSet<Category> Categories { get; set; }
@@ -14,19 +11,15 @@ public class AppDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
-        // Путь к корню проекта (3 уровня вверх от bin/Debug/netX.Y-windows)
         var projectDir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, @"..\..\..\"));
         var dbPath = Path.Combine(projectDir, "app.db");
         options.UseSqlite($"Data Source={dbPath}");
     }
 
-    /// <summary>
-    /// Заполнение базы данных начальными данными (4 категории, 12 товаров)
-    /// </summary>
     public static void Seed(AppDbContext context)
     {
         if (context.Categories.Any())
-            return; // База уже заполнена
+            return;
 
         var categories = new List<Category>
         {
@@ -61,4 +54,5 @@ public class AppDbContext : DbContext
         context.Products.AddRange(products);
         context.SaveChanges();
     }
+
 }

@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using WinFormsApp1.Data;
-using WinFormsApp1.Models;
 
 namespace WinFormsApp1;
 
@@ -15,10 +14,12 @@ public partial class FormCategories : Form
         btnAdd.Click += BtnAdd_Click;
         btnEdit.Click += BtnEdit_Click;
         btnDelete.Click += BtnDelete_Click;
+        dgv.SelectionChanged += Dgv_SelectionChanged;
 
         _context = new AppDbContext();
         LoadData();
     }
+
 
     private void LoadData()
     {
@@ -32,6 +33,18 @@ public partial class FormCategories : Form
 
         if (dgv.Rows.Count > 0)
             dgv.CurrentCell = dgv.Rows[0].Cells[0];
+    }
+
+    public void Dgv_SelectionChanged(object? sender, EventArgs e)
+    {
+        if (dgv.CurrentRow == null) return;
+
+        var id = (int)dgv.CurrentRow.Cells["Id"].Value;
+        var category = _context.Categories.Find(id);
+        if (category != null)
+        {
+            txtName.Text = category.Name;
+        }
     }
 
     private void BtnAdd_Click(object? sender, EventArgs e)
@@ -71,6 +84,8 @@ public partial class FormCategories : Form
             _context.SaveChanges();
             LoadData();
         }
+        dgv.CurrentCell = dgv.Rows[id - 1].Cells[0];
+        Dgv_SelectionChanged(sender, new DataGridViewCellEventArgs(0, id - 1));
     }
 
     private void BtnDelete_Click(object? sender, EventArgs e)

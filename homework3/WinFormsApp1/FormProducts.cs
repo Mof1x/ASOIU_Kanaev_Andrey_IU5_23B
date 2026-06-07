@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using WinFormsApp1.Data;
-using WinFormsApp1.Models;
 
 namespace WinFormsApp1;
 
@@ -113,6 +112,8 @@ public partial class FormProducts : Form
             _context.SaveChanges();
             LoadData();
         }
+        dgv.CurrentCell = dgv.Rows[id - 1].Cells[0];
+        Dgv_SelectionChanged(sender, new DataGridViewCellEventArgs(0, id - 1));
     }
 
     private void BtnDelete_Click(object? sender, EventArgs e)
